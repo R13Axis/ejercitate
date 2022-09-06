@@ -2,13 +2,11 @@
 * {
   font-family: Roboto, sans-serif; }
 
-a .letra {
-  font-weight: 800; }
+#hero {
+  background-image: url("../imagenes/hero.jpg");
+  width: 100%;
+  background-size: cover;
+  position: relative; }
 
-.img-container {
-  overflow: hidden;
-  height: 970px;
-  object-fit: cover; }
-
-img .hero {
-  width: auto; }
+section {
+  overflow: hidden; }

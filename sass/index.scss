@@ -8,16 +8,13 @@ $fuentes: Roboto, sans-serif;
     font-family: $fuentes;
 }
 
-a .letra {
-    font-weight: 800; 
+ #hero {
+    background-image: url("../imagenes/hero.jpg");
+    width: 100%;
+    background-size: cover;
+    position: relative;
 }
 
-.img-container {
+section {
     overflow: hidden;
-    height: 970px;
-    object-fit: cover;
-}
-
-img .hero {
-    width: auto;
 }
