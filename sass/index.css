@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 * {
-  font-family: Roboto, sans-serif; }
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box; }
 
 #hero {
-  background-image: url("../imagenes/hero.jpg");
+  background-image: url("../imagenes/hero-1.jpg");
   width: 100%;
-  background-size: cover;
-  position: relative; }
+  height: 100vh; }
 
-section {
-  overflow: hidden; }
+#hero::before {
+  background-color: rgba(0, 0, 0, 0.6); }
