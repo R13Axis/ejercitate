@@ -1,4 +1,4 @@
-
+$navbar-light-color:white;
 
 
 
@@ -10,22 +10,67 @@
 @import "../node_modules/bootstrap/scss/maps";
 @import "../node_modules/bootstrap/scss/mixins";
 @import "../node_modules/bootstrap/scss/root";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+
+
+
+
 
 // Mis estilos
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$fuente-principal: Roboto, sans-serif;
+
+
+* {
+    font-family: $fuente-principal;
+}
 
 .overflow {
-    overflow: hidden;
-}
-
-.img-size {
     width: 100%;
-    overflow: hidden;
-    
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: url('../imagenes/hero.jpg');
 }
 
+.hero-content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color:rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.custom-size-brand {
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    padding-left: 1.5em !important;
+    padding-top: 1.5em !important;
+    letter-spacing: 0.3em;
+}
+
+.custom-size-pages {
+    font-size: 1.30rem !important;
+    padding-right: 1.9em !important;
+    padding-top: 1.5em !important;
+}
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
