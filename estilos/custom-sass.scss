@@ -19,6 +19,9 @@ $navbar-light-color: white;
 
 $fuente-principal: Roboto, sans-serif;
 $color-principal: #e43939;
+$text-color-principal: black;
+$text-color-principal-light: #fff;
+$color-alterno: #37D5C0;
 
 
 *::selection {
@@ -196,6 +199,16 @@ section#empezar {
 
 //Slider
 
+.custom-icon-empezar {
+  height: 6em;
+  margin-bottom: 2em;
+}
+
+.custom-icon-cuerpo {
+  height: 5em;
+  margin-bottom: 2em;
+}
+
 ::selection {
   background: #e43939;
   color: #fff;
@@ -205,8 +218,8 @@ section#empezar {
   width: 100%;
   padding: 40px 50px 40px 40px;
   border-radius: 50px;
-  background: #c0c0c0f8;
-  box-shadow: inset 20px 20px 40px #bebebe, inset 20px 20px 40px #ffffff;
+  background: #343333f8;
+  // box-shadow: inset 20px 20px 40px #bebebe, inset 20px 20px 40px #ffffff;
 
 }
 
@@ -287,15 +300,15 @@ section#empezar {
 
     .title {
       font-size: 2em;
-      margin-bottom: 1.8em;
-      color: $color-principal;
-      text-shadow:  black 1px 1px;
+      margin-bottom: 1em;
+      color: #fff;
+      text-shadow: $text-color-principal 6px 6px;
       font-weight: bold;
     }
 
     p {
       text-align: center;
-      color: black;
+      color: $text-color-principal-light;
       font-size: 1.5em;
     }
   }

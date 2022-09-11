@@ -1697,6 +1697,14 @@ section#empezar {
   .custom-h2-empezar:hover {
     text-shadow: #e43939 1px 10px; }
 
+.custom-icon-empezar {
+  height: 6em;
+  margin-bottom: 2em; }
+
+.custom-icon-cuerpo {
+  height: 5em;
+  margin-bottom: 2em; }
+
 ::selection {
   background: #e43939;
   color: #fff; }
@@ -1705,8 +1713,7 @@ section#empezar {
   width: 100%;
   padding: 40px 50px 40px 40px;
   border-radius: 50px;
-  background: #c0c0c0f8;
-  box-shadow: inset 20px 20px 40px #bebebe, inset 20px 20px 40px #ffffff; }
+  background: #343333f8; }
 
 .content {
   display: flex;
@@ -1767,13 +1774,13 @@ section#empezar {
   display: none; }
   .content .text .title {
     font-size: 2em;
-    margin-bottom: 1.8em;
-    color: #e43939;
-    text-shadow: black 1px 1px;
+    margin-bottom: 1em;
+    color: #fff;
+    text-shadow: black 6px 6px;
     font-weight: bold; }
   .content .text p {
     text-align: center;
-    color: black;
+    color: #fff;
     font-size: 1.5em; }
 
 .content .text-content .home {
