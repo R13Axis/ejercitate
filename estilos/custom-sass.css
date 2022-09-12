@@ -1792,6 +1792,51 @@ section#empezar {
 #blog:checked ~ .text-content .home, #help:checked ~ .text-content .home, #code:checked ~ .text-content .home, #about:checked ~ .text-content .home, .content input {
   display: none; }
 
+.heria {
+  background-image: url("../imagenes/heria.webp"); }
+
+#videos {
+  background-color: rgba(0, 0, 0, 0.9); }
+
+.video-card {
+  overflow: hidden;
+  padding-bottom: 75%; }
+  .video-card .hover {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    background: rgba(0, 0, 0, 0.75);
+    transition: opacity 0.4s; }
+  .video-card:hover .hover {
+    opacity: 1; }
+  .video-card .video-title {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    transition: opacity 0.4s; }
+  .video-card:hover .video-title {
+    opacity: 0; }
+
+.prueba {
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat; }
+
+@media (min-width: 768px) {
+  .video-card {
+    padding-bottom: 50%; } }
+
 @media (max-width: 480px) {
   .content .list label {
     padding-left: 0;
