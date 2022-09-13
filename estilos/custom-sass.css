@@ -1783,10 +1783,10 @@ section#empezar {
     color: #fff;
     text-shadow: black 6px 6px;
     font-weight: bold; }
-  .content .text p {
+  .content .text .custom-p-tabs {
     text-align: center;
     color: #fff;
-    font-size: 1.5em; }
+    font-size: 1.4em; }
 
 .content .text-content .home {
   display: block; }
@@ -1888,10 +1888,24 @@ footer {
 
 @media (max-width: 991px) {
   .container-tabs {
-    padding: 40px 10px 40px 10px;
-    box-shadow: inset -10px -10px 40px #bebebe, inset -10px 10px 40px #ffffff; }
+    padding: 40px 10px 40px 10px; }
   .content .list {
-    width: 50%; } }
+    width: 50%; }
+  .content .text .title {
+    font-size: 2em; }
+  .content .text .custom-p-tabs {
+    font-size: 1em; }
+  .list .title {
+    font-size: 0.8em; } }
+
+@media (max-width: 768px) {
+  .footer-titulo {
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: black 4px 4px; }
+    .footer-titulo:hover {
+      color: #e43939;
+      text-decoration: underline; } }
 
 /*!
    * Bootstrap  v5.2.1 (https://getbootstrap.com/)

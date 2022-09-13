@@ -323,10 +323,10 @@ section#empezar {
       font-weight: bold;
     }
 
-    p {
+    .custom-p-tabs {
       text-align: center;
       color: $text-color-principal-light;
-      font-size: 1.5em;
+      font-size: 1.4em;
     }
   }
 
@@ -468,13 +468,44 @@ footer {
 @media (max-width: 991px) {
   .container-tabs {
     padding: 40px 10px 40px 10px;
-    box-shadow: inset -10px -10px 40px #bebebe, inset -10px 10px 40px #ffffff;
   }
+
   .content .list {
     width: 50%
   }
+
+  .content {
+    .text {
+      .title {
+        font-size: 2em;
+      }
+      .custom-p-tabs {
+        font-size: 1em;
+      }
+    }
+  }
+
+  .list {
+    .title {
+      font-size: 0.8em;
+    }
+  }
+
 }
 
+@media (max-width: 768px ) {
+  
+  .footer-titulo {
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: black 4px 4px;
+    &:hover {
+      color: $color-principal;
+      text-decoration: underline;
+    }
+  }
+
+}
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
