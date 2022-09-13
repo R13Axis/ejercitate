@@ -1556,6 +1556,10 @@ progress {
   background-color: currentcolor;
   opacity: 0.25; }
 
+@font-face {
+  font-family: logo;
+  src: url("../fonts/Plume-free-brush-font.otf"); }
+
 *::selection {
   color: #e43939; }
 
@@ -1693,9 +1697,10 @@ section#empezar {
 .custom-h2-empezar {
   font-size: 3em !important;
   color: #fff;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  text-shadow: black 4px 4px; }
   .custom-h2-empezar:hover {
-    text-shadow: #e43939 1px 10px; }
+    color: #e43939; }
 
 .custom-icon-empezar {
   height: 6em;
@@ -1795,6 +1800,9 @@ section#empezar {
 .heria {
   background-image: url("../imagenes/heria.webp"); }
 
+.heria-food {
+  background-image: url("../imagenes/heria-food.webp"); }
+
 #videos {
   background-color: rgba(0, 0, 0, 0.9); }
 
@@ -1830,12 +1838,48 @@ section#empezar {
 
 .prueba {
   background-size: cover;
-  background-position: center bottom;
+  background-position: center top;
   background-repeat: no-repeat; }
 
 @media (min-width: 768px) {
   .video-card {
     padding-bottom: 50%; } }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding-top: 8em;
+  padding-bottom: 8em; }
+
+.contenedor-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.footer-titulo {
+  font-size: 4em;
+  font-weight: bold;
+  text-shadow: black 4px 4px; }
+  .footer-titulo:hover {
+    color: #e43939;
+    text-decoration: underline; }
+
+.footer-secciones {
+  text-shadow: black 4px 4px;
+  font-size: 1.8em;
+  padding-bottom: 0.5em; }
+
+.custom-a-footer {
+  font-size: 1.1em;
+  color: #e43939;
+  text-decoration: none; }
+  .custom-a-footer:hover {
+    color: #fff;
+    cursor: pointer; }
+
+.flex-links {
+  display: flex;
+  flex-direction: column; }
 
 @media (max-width: 480px) {
   .content .list label {

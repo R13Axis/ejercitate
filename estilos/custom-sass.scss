@@ -17,6 +17,22 @@ $navbar-light-color: white;
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+
+@font-face {
+  font-family: logo;
+  src: url('../fonts/Plume-free-brush-font.otf');
+}
+
+
+
+
+
+
+
+
+
+
+
 $fuente-principal: Roboto, sans-serif;
 $color-principal: #e43939;
 $text-color-principal: black;
@@ -193,8 +209,10 @@ section#empezar {
   font-size: 3em !important;
   color:#fff;
   margin-bottom: 2em;
+  text-shadow: black 4px 4px;
   &:hover {
-    text-shadow: $color-principal 1px 10px;
+    color: $color-principal;
+    
   }
 }
 
@@ -331,6 +349,9 @@ section#empezar {
   background-image: url('../imagenes/heria.webp');
 }
 
+.heria-food {
+  background-image: url('../imagenes/heria-food.webp');
+}
 
 
 #videos {
@@ -379,7 +400,7 @@ section#empezar {
 .prueba {
   // background-image: url('https://omnia.us/images/snipImages/global/rectangle-5.jpg');
   background-size: cover;
-  background-position: center bottom;
+  background-position: center top;
   background-repeat: no-repeat;
 }
 
@@ -389,8 +410,51 @@ section#empezar {
   }
 }
 
-// style="background: url(https://omnia.us/images/snipImages/global/rectangle-3.jpg); background-size: cover; background-position: center bottom; background-repeat: no-repeat;"
+// FOOTER
 
+footer {
+  background-color: $main-bg;
+  color: $text-color-principal-light;
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+
+.contenedor-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-titulo {
+  font-size: 4em;
+  font-weight: bold;
+  text-shadow: black 4px 4px;
+  &:hover {
+    color: $color-principal;
+    text-decoration: underline;
+  }
+}
+
+.footer-secciones {
+  text-shadow: black 4px 4px;
+  font-size: 1.8em;
+  padding-bottom: 0.5em;
+}
+
+.custom-a-footer {
+  font-size: 1.1em ;
+  color: $color-principal;
+  text-decoration: none;
+  &:hover {
+    color: $text-color-principal-light;
+    cursor: pointer;
+  }
+}
+
+.flex-links {
+  display: flex;
+  flex-direction: column;
+}
 
 // Media Queries
 
