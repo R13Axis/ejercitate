@@ -1556,10 +1556,6 @@ progress {
   background-color: currentcolor;
   opacity: 0.25; }
 
-@font-face {
-  font-family: logo;
-  src: url("../fonts/Plume-free-brush-font.otf"); }
-
 *::selection {
   color: #e43939; }
 
@@ -1906,6 +1902,9 @@ footer {
     .footer-titulo:hover {
       color: #e43939;
       text-decoration: underline; } }
+
+.custom-bg-cuerpo {
+  background-color: rgba(0, 0, 0, 0.9); }
 
 /*!
    * Bootstrap  v5.2.1 (https://getbootstrap.com/)
