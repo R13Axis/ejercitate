@@ -683,18 +683,35 @@ footer {
 
     .contenedor-grid {
       display: grid;
-      grid-template-columns: 2fr 1fr 3fr 2fr; 
+      grid-template-columns: 1fr 2fr 3fr 1fr; 
+      justify-items: center;
+    }
+
+    .contenedor-grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 3fr 2fr 1fr; 
       justify-items: center;
     }
 
     .heading-cuerpo {
       color: $text-color-principal-light;
+      grid-column-start: 2;
+    }
 
+    .heading-cuerpo-2 {
+      color: $text-color-principal-light;
+      grid-column-start: 3;
     }
 
     .informacion {
       color: $text-color-principal-light;
     }
+
+    .informacion-2 {
+      grid-column-start: 2;
+      color: $text-color-principal-light; 
+    }
+
 
   // ANIMACIONES
 
