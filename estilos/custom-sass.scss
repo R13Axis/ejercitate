@@ -499,6 +499,15 @@ footer {
   background-color: $main-bg;
 }
 
+.custom-contendor-cuerpo-h1 {
+  padding-top: 15em;
+}
+
+.h1-custom-cuerpo {
+  color: $text-color-principal-light;
+  text-shadow: #000 6px 6px;
+  
+}
 
 
   // GALERIA
@@ -533,7 +542,7 @@ footer {
   .container-slides {
       max-width: 1044px;
       margin: 0 auto;
-      padding: 14em 3em;
+      padding: 8em 3em;
   }
   
   .carousel {
@@ -669,6 +678,23 @@ footer {
       }
   }
 
+
+  // CUERPO 
+
+    .contenedor-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 3fr 2fr; 
+      justify-items: center;
+    }
+
+    .heading-cuerpo {
+      color: $text-color-principal-light;
+
+    }
+
+    .informacion {
+      color: $text-color-principal-light;
+    }
 
   // ANIMACIONES
 
