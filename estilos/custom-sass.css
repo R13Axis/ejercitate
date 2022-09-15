@@ -2059,20 +2059,25 @@ section.custom-section-gallery {
 .contenedor-grid {
   display: grid;
   grid-template-columns: 1fr 2fr 3fr 1fr;
-  justify-items: center; }
+  justify-items: center;
+  padding-top: 10em;
+  row-gap: 3em; }
 
 .contenedor-grid-2 {
   display: grid;
   grid-template-columns: 1fr 3fr 2fr 1fr;
-  justify-items: center; }
+  justify-items: center;
+  padding-top: 10em; }
 
 .heading-cuerpo {
   color: #fff;
-  grid-column-start: 2; }
+  grid-column-start: 2;
+  color: #e43939; }
 
 .heading-cuerpo-2 {
   color: #fff;
-  grid-column-start: 3; }
+  grid-column-start: 3;
+  color: #e43939; }
 
 .informacion {
   color: #fff; }

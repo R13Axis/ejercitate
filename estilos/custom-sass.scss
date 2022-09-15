@@ -685,22 +685,27 @@ footer {
       display: grid;
       grid-template-columns: 1fr 2fr 3fr 1fr; 
       justify-items: center;
+      padding-top: 10em;
+      row-gap: 3em;
     }
 
     .contenedor-grid-2 {
       display: grid;
       grid-template-columns: 1fr 3fr 2fr 1fr; 
       justify-items: center;
+      padding-top: 10em;
     }
 
     .heading-cuerpo {
       color: $text-color-principal-light;
       grid-column-start: 2;
+      color: $color-principal;
     }
 
     .heading-cuerpo-2 {
       color: $text-color-principal-light;
       grid-column-start: 3;
+      color: $color-principal;
     }
 
     .informacion {
