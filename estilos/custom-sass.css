@@ -1902,20 +1902,19 @@ footer {
       color: #e43939;
       text-decoration: underline; } }
 
-.h1-custom-size-cuerpo {
-  font-size: 1.4em; }
-
-.custom-container-cuerpo {
-  background-color: #fff !important;
-  margin: 2em 2em 2em 2em;
-  width: auto; }
+.custom-bg-cuerpo {
+  background-color: rgba(0, 0, 0, 0.9); }
 
 .contenedor-grid {
   display: grid;
-  background-color: #fff; }
+  position: relative;
+  margin: 10em 9em;
+  overflow: hidden;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr); }
 
-.custom-bg-cuerpo {
-  background-color: rgba(0, 0, 0, 0.9) !important; }
+.elemento-grid-1 {
+  background-color: #fff; }
 
 .heartbeat:hover {
   -webkit-animation: heartbeat 1.5s ease-in-out infinite both;

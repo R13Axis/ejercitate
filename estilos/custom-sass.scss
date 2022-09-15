@@ -495,28 +495,30 @@ footer {
 
 // SECCION CUERPO
 
-
-.h1-custom-size-cuerpo {
-  font-size: 1.4em;
-}
-
-.custom-container-cuerpo {
-  background-color:#fff !important;
-  margin: 2em 2em 2em 2em;
-  width: auto;
+.custom-bg-cuerpo {
+  background-color: $main-bg;
 }
 
 .contenedor-grid {
   display: grid;
+  position: relative;
+  margin: 10em 9em;
+  overflow: hidden;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.elemento-grid-1 {
   background-color: #fff;
+  
+  
 }
 
+  // GALERIA
 
-// GALERIA
+  
 
-.custom-bg-cuerpo {
-  background-color: $main-bg !important;
-}
+  // ANIMACIONES
 
 .heartbeat:hover {
   -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
