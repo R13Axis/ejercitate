@@ -2060,14 +2060,14 @@ section.custom-section-gallery {
   display: grid;
   grid-template-columns: 1fr 2fr 3fr 1fr;
   justify-items: center;
-  padding-top: 2em;
+  padding-top: 10em;
   row-gap: 3em; }
 
 .contenedor-grid-2 {
   display: grid;
   grid-template-columns: 1fr 3fr 2fr 1fr;
   justify-items: center;
-  padding-top: 8em; }
+  padding-top: 10em; }
 
 .heading-cuerpo {
   color: #fff;
