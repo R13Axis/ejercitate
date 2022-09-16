@@ -398,7 +398,7 @@ section#empezar {
 
 // FOOTER
 
-footer {
+footer.footer-custom-index {
   background-color: $main-bg;
   color: $text-color-principal-light;
   padding-top: 8em;
@@ -500,7 +500,7 @@ footer {
 }
 
 .custom-contendor-cuerpo-h1 {
-  padding-top: 8em;
+  padding-top: 7.8em;
 }
 
 .h1-custom-cuerpo {
@@ -685,7 +685,7 @@ footer {
       display: grid;
       grid-template-columns: 1fr 2fr 3fr 1fr; 
       justify-items: center;
-      padding-top: 10em;
+      padding-top: 2em;
       row-gap: 3em;
     }
 
@@ -693,7 +693,7 @@ footer {
       display: grid;
       grid-template-columns: 1fr 3fr 2fr 1fr; 
       justify-items: center;
-      padding-top: 10em;
+      padding-top: 8em;
     }
 
     .heading-cuerpo {
@@ -710,13 +710,26 @@ footer {
 
     .informacion {
       color: $text-color-principal-light;
+      text-align: center;
     }
 
     .informacion-2 {
       grid-column-start: 2;
       color: $text-color-principal-light; 
+      text-align: center;
     }
 
+
+
+
+
+
+
+    footer.footer-custom-cuerpo {
+      color: $text-color-principal-light;
+      padding-top: 8em;
+      padding-bottom: 8em;
+    }
 
   // ANIMACIONES
 
