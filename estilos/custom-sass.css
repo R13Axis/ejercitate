@@ -2088,6 +2088,28 @@ section.custom-section-gallery {
   color: #fff;
   text-align: center; }
 
+.galeria-videos {
+  padding: 10em; }
+
+.custom-img-size-gallery-cuerpo {
+  height: 80% !important; }
+
+.h5-galeria-custom {
+  font-weight: bold;
+  color: #fff;
+  text-shadow: black 2px 2px; }
+
+.descripcion-custom-cuerpo {
+  color: #fff;
+  text-shadow: black 2px 2px;
+  font-size: 1.2em; }
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #e43939 !important; }
+
+.carousel-dark .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5) !important; }
+
 footer.footer-custom-cuerpo {
   color: #fff;
   padding-top: 8em;
