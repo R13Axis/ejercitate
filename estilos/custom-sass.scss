@@ -1,4 +1,11 @@
 $navbar-light-color: white;
+$accordion-bg: #343333f8;
+$accordion-icon-color: #fff;
+$accordion-color: #fff;
+$accordion-button-focus-box-shadow: #e43939;
+$accordion-button-active-color: #fff;
+$accordion-button-active-bg: #e43939;
+$accordion-border-color: #343333f8;
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
@@ -787,6 +794,12 @@ footer.footer-custom-index {
       color: $text-color-principal-light;
       padding-top: 8em;
       padding-bottom: 8em;
+    }
+
+    // SECCION MENTE
+
+    .custom-padding-container-mente {
+      padding: 4em;
     }
 
   // ANIMACIONES
