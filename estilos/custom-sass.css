@@ -2089,7 +2089,10 @@ section.custom-section-gallery {
   text-align: center; }
 
 .galeria-videos {
-  padding: 10em; }
+  padding-top: 8em;
+  padding-bottom: 4em;
+  padding-left: 19em;
+  padding-right: 19em; }
 
 .custom-img-size-gallery-cuerpo {
   height: 80% !important; }
@@ -2109,6 +2112,27 @@ section.custom-section-gallery {
 
 .carousel-dark .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5) !important; }
+
+.custom-disciplinas {
+  color: #e43939;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 1em;
+  font-size: 3em; }
+
+.custom-disciplinas-text {
+  color: #e43939;
+  font-size: 3em; }
+
+.text-disciplinas {
+  color: #fff; }
+
+.disciplinas {
+  margin-left: 8em;
+  margin-right: 8em; }
+
+.contenedor-disciplinas {
+  padding-top: 4em; }
 
 footer.footer-custom-cuerpo {
   color: #fff;

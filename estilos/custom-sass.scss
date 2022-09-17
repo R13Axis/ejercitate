@@ -723,7 +723,10 @@ footer.footer-custom-index {
     // GALERIA VIDEOS CUERPO
 
     .galeria-videos {
-      padding: 10em;
+      padding-top: 8em;
+      padding-bottom: 4em;
+      padding-left: 19em;
+      padding-right: 19em;
     }
 
     .custom-img-size-gallery-cuerpo {
@@ -750,6 +753,35 @@ footer.footer-custom-index {
       background-color: rgba(0, 0, 0, 0.5) !important;
     }
 
+    // Disciplinas
+
+    .custom-disciplinas {
+      color: $color-principal;
+      text-align: center;
+      padding-top: 3em;
+      padding-bottom: 1em;
+      font-size: 3em;
+    }
+
+    .custom-disciplinas-text {
+      color: $color-principal;
+      font-size: 3em;
+    }
+
+    .text-disciplinas { 
+      color: #fff;
+    }
+
+    .disciplinas {
+      margin-left: 8em;
+      margin-right: 8em;
+    }
+
+    .contenedor-disciplinas {
+      padding-top: 4em;
+    } 
+
+    // FOOTER CUERPO
 
     footer.footer-custom-cuerpo {
       color: $text-color-principal-light;
