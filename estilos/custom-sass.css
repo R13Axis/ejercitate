@@ -2160,6 +2160,20 @@ footer.footer-custom-cuerpo {
 .row-padding-top-mente {
   padding-top: 4em; }
 
+.h3-custom-alimentacion {
+  color: #37D5C0; }
+
+.p-custom-alimentacion {
+  color: #fff; }
+
+.custom-container-alimentacion {
+  padding-top: 4em;
+  margin-left: 10em;
+  margin-right: 10em; }
+
+.custom-padding-container-mente {
+  padding: 10em; }
+
 .heartbeat:hover {
   -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
   animation: heartbeat 1.5s ease-in-out infinite both; }
