@@ -7,6 +7,7 @@ $accordion-button-active-color: #fff;
 $accordion-button-active-bg: #e43939;
 $accordion-border-color: #343333f8;
 
+
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/maps";
@@ -765,7 +766,7 @@ footer.footer-custom-index {
     .custom-disciplinas {
       color: $color-principal;
       text-align: center;
-      padding-top: 3em;
+      padding-top: 2em;
       padding-bottom: 1em;
       font-size: 3em;
     }
@@ -800,6 +801,30 @@ footer.footer-custom-index {
 
     .custom-padding-container-mente {
       padding: 4em;
+    }
+
+    .h1-custom-mente {
+      color: $text-color-principal-light;
+      text-shadow: #000 6px 6px;
+      font-size: 3em;
+  
+    }
+
+    .h3-custom-metas {
+      font-size: 2em;
+      color: $text-color-principal-light;
+    }
+
+    .h4-custom-metas {
+      color: $color-principal;
+    }
+
+    .p-custom-mente {
+      color: $text-color-principal-light;
+    }
+
+    .row-padding-top-mente {
+      padding-top: 4em;
     }
 
   // ANIMACIONES

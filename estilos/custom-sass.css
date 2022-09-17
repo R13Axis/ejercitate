@@ -2116,7 +2116,7 @@ section.custom-section-gallery {
 .custom-disciplinas {
   color: #e43939;
   text-align: center;
-  padding-top: 3em;
+  padding-top: 2em;
   padding-bottom: 1em;
   font-size: 3em; }
 
@@ -2141,6 +2141,24 @@ footer.footer-custom-cuerpo {
 
 .custom-padding-container-mente {
   padding: 4em; }
+
+.h1-custom-mente {
+  color: #fff;
+  text-shadow: #000 6px 6px;
+  font-size: 3em; }
+
+.h3-custom-metas {
+  font-size: 2em;
+  color: #fff; }
+
+.h4-custom-metas {
+  color: #e43939; }
+
+.p-custom-mente {
+  color: #fff; }
+
+.row-padding-top-mente {
+  padding-top: 4em; }
 
 .heartbeat:hover {
   -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
