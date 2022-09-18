@@ -7,6 +7,11 @@ $accordion-button-active-color: #fff;
 $accordion-button-active-bg: #e43939;
 $accordion-border-color: #343333f8;
 
+$input-border-color: #343333f8;
+$input-bg: #343333f8;
+$input-color: #fff;
+
+$primary: #e43939;
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
@@ -849,7 +854,17 @@ footer.footer-custom-index {
 
 
 
+        // SECCION CONTACTO
 
+      .custom-container-contacto {
+        padding: 14em;
+      } 
+
+      .label-custom-color {
+        color: #fff;
+      }
+
+  
 
 
 
